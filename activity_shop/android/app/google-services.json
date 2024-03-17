@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "294093298575",
+    "project_id": "activity-shop",
+    "storage_bucket": "activity-shop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294093298575:android:1957750eef6680265309fa",
+        "android_client_info": {
+          "package_name": "com.google.firebase.presents.activity_shop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx9za-_VfzWVHFY8COdstsR81oVz6Jzuo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
