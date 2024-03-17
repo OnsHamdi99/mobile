@@ -42,6 +42,7 @@ class _CartPageState extends State<CartPage> {
     }
   }
 
+
   Future<void> _removeFromCart(Activity activity) async {
     final uid = _firebaseAuth.currentUser!.uid;
     await _firestore.collection('paniers').doc(uid).update({
@@ -132,17 +133,18 @@ class _CartPageState extends State<CartPage> {
 children: [
 // Total price
 Text('Total: €$_totalPrice'),
-// Empty cart button (optional)
+
 ElevatedButton(
 onPressed: () {
-// TODO: Implement clear cart functionality
+Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context) => ActivitiesPage()));
 },
-child: Text('Vider le panier'),
+child: Text('Retour'),
 ),
 ],
 ),
 ),
 ),
 );
+
 }
 } 
