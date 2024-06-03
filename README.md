@@ -9,7 +9,4 @@ Identifiants de connexion :
 - password : user1user1 
 - Ou créer un compte et puis se connecter ensuite. 
 
-Fonctionnalités réalisées : toutes 
 
-Fonctionnalités supplémentaires : 
- - inscription 
